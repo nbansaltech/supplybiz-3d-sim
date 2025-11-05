@@ -1115,6 +1115,24 @@ function SupplyBizSupplyChainSimulation() {
           </div>
         )}
       </ContextModal>
+      
+      {/* Footer */}
+      <footer className="mt-8 py-6 border-t border-gray-700 bg-gradient-to-r from-gray-900 to-gray-800">
+        <div className="text-center">
+          <p className="text-gray-300 text-sm font-medium">
+            Built with <span className="text-red-500 text-lg animate-pulse">❤️</span> by{' '}
+            <span className="text-blue-400 font-bold">Nishant Bansal</span>
+          </p>
+          <p className="text-gray-400 text-xs mt-1">
+            To optimize supply chain management and visualize it
+          </p>
+          <div className="flex justify-center items-center mt-2 space-x-4 text-xs text-gray-500">
+            <span>🚚 Smart Logistics</span>
+            <span>📊 Real-time Analytics</span>
+            <span>🤖 AI-Powered Optimization</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
